@@ -13,6 +13,7 @@ Features
 
 Future Enhancements
 
+    - Dark mode ✅
     - Mobile support
     - Search by card description
     - Filter by specific attack, defense, level/rank, link rating numbers
