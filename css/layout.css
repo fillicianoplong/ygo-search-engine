@@ -1,0 +1,49 @@
+input, select, button {
+    border-radius: 10px;
+    outline: none;
+}
+
+.card {
+    width: 100%;
+}
+
+#name {
+    width: 25%;
+}
+
+#sort {
+    right: 133px;
+}
+
+#order {
+    right: 16px;
+}
+
+#filter {
+    padding-top: 1px;
+}
+
+#submit {
+    display: flex;
+    align-items: center;
+}
+
+#filter {
+    left: 63px;
+    position: fixed;
+}
+
+#dark-mode {
+    left: 16px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#dark-mode-icon {
+    width: 20px;
+}
+
+#search-icon {
+    margin-top: 1px;
+}

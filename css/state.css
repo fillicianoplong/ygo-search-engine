@@ -1,0 +1,39 @@
+input:active, select:active, button:active {
+    filter: brightness(.98);
+    outline: none;
+}
+
+input:hover, select:hover, button:hover {
+    filter: brightness(.98);
+}
+
+.item:hover, .close:hover {
+    filter: brightness(.9);
+    cursor: pointer;
+}
+
+#apply:hover, #apply:active {
+    filter: brightness(0.9);
+}
+
+#reset:hover, #reset:active {
+    border-color: rgb(245, 245, 245);
+}
+
+input:active.color-light, select:active.color-light, button:active.color-light {
+    filter: brightness(1.1);
+}
+
+input:hover.color-light, select:hover.color-light, button:hover.color-light {
+    filter: brightness(1.1);
+}
+
+#apply:hover.color-light, #apply:active.color-light {
+    filter: brightness(1.1);
+}
+
+#reset:hover.color-light, #reset:active.color-light {
+    filter: brightness(1);
+    background-color: #303030;
+    border: #191919;
+}

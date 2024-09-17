@@ -1,0 +1,530 @@
+{"data":
+	[
+		{
+			"name": "Advanced Ritual Art",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Allure of Darkness",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Black Luster Soldier - Envoy of the Beginning",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Black Rose Dragon",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Black Whirlwind",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Blackwing - Gale the Whirlwind",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Bottomless Trap Hole",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Brain Control",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Brionac, Dragon of the Ice Barrier",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Burial from a Different Dimension",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Butterfly Dagger - Elma",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Call of the Haunted",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Card Destruction",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Card Trooper",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Card of Safe Return",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Ceasefire",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Chain Strike",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Change of Heart",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Chaos Emperor Dragon - Envoy of the End",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Chaos Sorcerer",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Charge of the Light Brigade",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Cold Wave",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Confiscation",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Crush Card Virus",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Cyber Dragon",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Cyber Jar",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Cyber-Stein",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Dandylion",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Dark Armed Dragon",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Dark Hole",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Dark Magician of Chaos",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Dark Strike Fighter",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Delinquent Duo",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Demise, King of Armageddon",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Destiny Draw",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Destiny HERO - Disk Commander",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Destiny HERO - Malicious",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Dimension Fusion",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Elemental HERO Stratos",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Emergency Teleport",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Exchange of the Spirit",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Exodia the Forbidden One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Fiber Jar",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Foolish Burial",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Future Fusion",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Giant Trunade",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Gladiator Beast Bestiari",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Goblin Zombie",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Gold Sarcophagus",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Gorz the Emissary of Darkness",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Goyo Guardian",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Graceful Charity",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Gravity Bind",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Harpie's Feather Duster",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Heavy Storm",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Honest",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Imperial Order",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Judgment Dragon",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Last Turn",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Last Will",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Left Arm of the Forbidden One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Left Leg of the Forbidden One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Level Limit - Area B",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Limiter Removal",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Lonefire Blossom",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Lumina, Lightsworn Summoner",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Magic Cylinder",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Magical Explosion",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Magical Scientist",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Magical Stone Excavation",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Magician of Faith"
+		},
+		{
+			"name": "Makyura the Destructor"
+		},
+		{
+			"name": "Marshmallon",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Megamorph",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Metamorphosis",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Mezuki",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Mind Control",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Mind Crush",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Mind Master",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Mirage of Nightmare",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Mirror Force",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Monster Gate",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Monster Reborn",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Morphing Jar",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Mystical Space Typhoon",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Necro Gardna",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Necroface",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Neo-Spacian Grand Mole",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Night Assailant",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Ojama Trio",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "One for One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Overload Fusion",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Painful Choice",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Plaguespreader Zombie",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Pot of Greed",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Premature Burial",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Raigeki",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Reasoning",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Reinforcement of the Army",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Rescue Cat",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Return from the Different Dimension",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Right Arm of the Forbidden One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Right Leg of the Forbidden One",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Ring of Destruction",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Royal Decree",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Royal Oppression",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Sangan",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Scapegoat",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Sinister Serpent",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Skill Drain",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Snatch Steal",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Snipe Hunter",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Solemn Judgment",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Spirit Reaper",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Summoner Monk",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Swords of Revealing Light",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "The Forceful Sentry",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "The Transmigration Prophecy",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Thousand-Eyes Restrict",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Time Seal",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Torrential Tribute",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Tragoedia",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Trap Dustshoot",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Treeborn Frog",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Tribe-Infecting Virus",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Tsukuyomi",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Ultimate Offering",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "United We Stand",
+			"ban_edison": "Semi-Limited"
+		},
+		{
+			"name": "Victory Dragon",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Wall of Revealing Light",
+			"ban_edison": "Limited"
+		},
+		{
+			"name": "Witch of the Black Forest",
+			"ban_edison": "Banned"
+		},
+		{
+			"name": "Yata-Garasu",
+			"ban_edison": "Banned"
+		}
+	]
+}

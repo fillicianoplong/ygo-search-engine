@@ -1,0 +1,88 @@
+body {
+    color: black;
+    background-color: rgb(245, 245, 245);
+}
+
+input, select, button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+select, select option {
+    color: black;
+}
+
+path#filter-icon-path {
+    stroke: none;
+    fill: #000000;
+}
+
+.close {
+    color: #ffffff;
+}
+
+.search-bar {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.focus-modal {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.filter-bar {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.color-light {
+    background-color: #303030;
+    color: #ffffff;
+}
+
+.color-medium {
+    background-color: #262626;
+    border-color: #191919;
+    color: #ffffff;
+}
+
+.color-dark {
+    background-color: #191919;
+}
+
+.color-light path#dark-mode-icon-path {
+    fill: #ffffff;
+}
+
+.color-light path#filter-icon-path {
+    stroke: none;
+    fill: #ffffff;
+}
+
+.color-light path#search-icon-path {
+    stroke: #ffffff;
+}
+
+.color-light option {
+    color: #ffffff;
+}
+
+#apply {
+    background-color: #0835db;
+    color: white;
+}
+
+#apply.color-light {
+    background-color: #503875;
+    color: white;
+}
+
+#reset {
+    border-color: #ffffff;
+}
+
+#reset.color-light {
+    background-color: #262626;
+    border: #262626;
+}

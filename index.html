@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/index.js" defer></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/module.css">
+    <link rel="stylesheet" href="css/state.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <title>Yugioh</title>
+</head>
+
+<body>
+    <div id="focus-modal" class="focus-modal">
+        <div class="modal-container">
+            <div>
+                <img class="modal-content" id="modal-content" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="filter-bar" class="filter-bar">
+        <div id="filter-bar-left">
+            <select id="card-type" name="card-type" onchange="updateDropdowns();">
+                <option value="" selected>Card</option>
+                <option value="normal monster">Normal Monster</option>
+                <option value="normal tuner monster">Normal Tuner Monster</option>
+                <option value="effect monster">Effect Monster</option>
+                <option value="flip effect monster">Flip Effect Monster</option>
+                <option value="tuner monster">Tuner Effect Monster</option>
+                <option value="pendulum normal monster">Pendulum Normal Monster</option>
+                <option value="pendulum tuner effect monster">Pendulum Tuner Effect Monster</option>
+                <option value="pendulum effect monster">Pendulum Effect Monster</option>
+                <option value="pendulum flip effect monster">Pendulum Flip Effect Monster</option>
+                <option value="ritual monster">Ritual Monster</option>
+                <option value="ritual effect monster">Ritual Effect Monster</option>
+                <option value="fusion monster">Fusion Monster</option>
+                <option value="pendulum effect fusion monster">Pendulum Effect Fusion Monster</option>
+                <option value="synchro monster">Synchro Monster</option>
+                <option value="synchro tuner monster">Synchro Tuner Monster</option>
+                <option value="synchro pendulum effect monster">Synchro Pendulum Effect Monster</option>
+                <option value="xyz monster">XYZ Monster</option>
+                <option value="xyz pendulum effect monster">XYZ Pendulum Effect Monster</option>
+                <option value="link monster">Link Monster</option>
+                <option value="toon monster">Toon Monster</option>
+                <option value="gemini monster">Gemini Monster</option>
+                <option value="union effect monster">Union Effect Monster</option>
+                <option value="spell card">Spell Card</option>
+                <option value="trap card">Trap Card</option>
+                <option value="skill card">Skill Card</option>
+                <option value="token">Token</option>
+            </select>
+            <select id="type" name="type">
+                <option value="" selected>Type</option>
+                <option value="aqua">Aqua</option>
+                <option value="beast">Beast</option>
+                <option value="beast-warrior">Beast-Warrior</option>
+                <option value="creator-god">Creator-God</option>
+                <option value="cyberse">Cyberse</option>
+                <option value="dinoaur">Dinosaur</option>
+                <option value="divine-beast">Divine-Beast</option>
+                <option value="dragon">Dragon</option>
+                <option value="fairy">Fairy</option>
+                <option value="fiend">Fiend</option>
+                <option value="fish">Fish</option>
+                <option value="insect">Insect</option>
+                <option value="machine">Machine</option>
+                <option value="plant">Plant</option>
+                <option value="psychic">Psychic</option>
+                <option value="pyro">Pyro</option>
+                <option value="reptile">Reptile</option>
+                <option value="rock">Rock</option>
+                <option value="sea serpent">Sea Serpent</option>
+                <option value="spellcaster">Spellcaster</option>
+                <option value="thunder">Thunder</option>
+                <option value="warrior">Warrior</option>
+                <option value="winged beast">Winged Beast</option>
+                <option value="wyrm">Wyrm</option>
+                <option value="zombie">Zombie</option>
+                <option value="normal">Normal</option>
+                <option value="field">Field</option>
+                <option value="equip">Equip</option>
+                <option value="continuous">Continuous</option>
+                <option value="quick-play">Quick-Play</option>
+                <option value="ritual">Ritual</option>
+                <option value="counter">Counter</option>
+            </select>
+            <select id="attribute" name="attribute">
+                <option value="" selected>Attribute</option>
+                <option value="wind">Wind</option>
+                <option value="water">Water</option>
+                <option value="fire">Fire</option>
+                <option value="earth">Earth</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="divine">Divine</option>
+            </select>
+            <select id="format" name="format" onchange="updateDropdowns()">
+                <option value="" selected>Format</option>
+                <option value="tcg">TCG</option>
+                <option value="ocg">OCG</option>
+                <option value="edison">Edison</option>
+                <option value="goat">GOAT</option>
+            </select>
+            <input id="apply" type="button" onclick="search()" value="Apply">
+            <input id="reset" type="button" onclick="resetInputs()" value="Clear all">
+        </div>
+        <div id="filter-bar-right">
+            <select id="sort" name="sort" onchange="sortResults()">
+                <option value="az">A-Z</option>
+                <option value="views">Views</option>
+                <option value="ocg">Release</option>
+                <option value="level">Level</option>
+                <option value="link">Link</option>
+                <option value="atk">Attack</option>
+                <option value="def">Def</option>
+            </select>
+            <select id="order" name="order" onchange="sortResults()">
+                <option value="asc" selected>Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <form class="search-bar" id="search-bar" onsubmit="event.preventDefault()">
+            <button id="dark-mode" type="button" onclick="toggleDarkMode()">
+                <svg id="dark-mode-icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path id="dark-mode-icon-path" d="m12 22c5.5228475 0 10-4.4771525 10-10s-4.4771525-10-10-10-10 4.4771525-10 10 4.4771525 10 10 10zm0-1.5v-17c4.6944204 0 8.5 3.80557963 8.5 8.5 0 4.6944204-3.8055796 8.5-8.5 8.5z" fill="#212121"/>
+                </svg>
+            </button>
+            <button id="filter" type="button" onclick="toggleFilters()">
+                <svg id="filter-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path id="filter-icon-path" d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7C6.44772 13 6 12.5523 6 12ZM9 17C9 16.4477 9.44772 16 10 16H14C14.5523 16 15 16.4477 15 17C15 17.5523 14.5523 18 14 18H10C9.44772 18 9 17.5523 9 17Z" fill="#000000"/>
+                </svg>
+            </button>
+            <input id="name" name="name" type="text"  value="" placeholder="Name">
+            <button id="submit" type="submit" onclick="search()">
+                <svg id="search-icon" fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path id="search-icon-path" d="m19.25 19.25-3.75-3.75m-10.75-4.5c0-3.45178 2.79822-6.25 6.25-6.25 3.4518 0 6.25 2.79822 6.25 6.25 0 3.4518-2.7982 6.25-6.25 6.25-3.45178 0-6.25-2.7982-6.25-6.25z" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/></svg>
+            </button>
+        </form>
+        <div class="gallery">
+            <div id="gallery">
+                <!-- js injection -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
